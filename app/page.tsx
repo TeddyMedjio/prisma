@@ -1,7 +1,10 @@
 import BlogCard from "@/components/BlogCard";
-import Earnings from "@/components/Earnings";
 import ProfilCard from "@/components/ProfilCard";
 import TestimonialCard from "@/components/TestimonialCard";
+import ButtonChange from "@/components/ButtonChange";
+import TextInput from "@/components/TextInput";
+import CollectionSection from "@/components/CollectionSection";
+import NewsletterSection from "@/components/NewsletterSection";
 
 export default function Home() {
   return (
@@ -9,7 +12,10 @@ export default function Home() {
       <TestimonialCard />
       <BlogCard />
       <ProfilCard />
-      <Earnings />
+      <ButtonChange />
+      <TextInput />
+      <CollectionSection />
+      <NewsletterSection />
     </main>
   );
 }

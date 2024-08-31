@@ -1,29 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.toping {
-  position: absolute;
-  top: calc((1rem) * -2);
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0, 75rem;
-  font-weight: 700;
-}
-.topin {
-  position: absolute;
-  bottom: calc((1rem) * -2);
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0, 75rem;
-  font-weight: 700;
-}
-
-.progress {
-  height: 425px;
-  width: 16px;
-  display: flex;
-  flex-direction: column-reverse;
-  overflow: hidden;
-  border-radius: 8px;
-}
