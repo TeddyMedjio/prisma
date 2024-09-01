@@ -57,7 +57,7 @@ export default function NewsletterSection() {
           </form>
         </div>
 
-        <div className="flex-1 lg:h-[600px] w-full bg-[url('/abstract.jpg')] bg-cover bg-no-repeat bg-center rounded-sm bg-red-600"></div>
+        <div className="flex-1 lg:h-[600px] w-full bg-[url('/abstract.jpg')] bg-cover bg-no-repeat bg-center rounded-sm "></div>
       </div>
     </div>
   );
