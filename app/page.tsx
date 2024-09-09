@@ -5,6 +5,7 @@ import ButtonChange from "@/components/ButtonChange";
 import TextInput from "@/components/TextInput";
 import CollectionSection from "@/components/CollectionSection";
 import NewsletterSection from "@/components/NewsletterSection";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TextInput />
       <CollectionSection />
       <NewsletterSection />
+      <ContactForm />
     </main>
   );
 }
